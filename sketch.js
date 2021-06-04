@@ -103,6 +103,10 @@ function draw() {
     square.x = square.x-10;
   }
 
+  textSize(18);
+  textFont("Arial");
+  text("Space to shoot and earn points. Earn as much as possible before losing.", 207.8, 45);
+
   drawSprites();
   spawnTriangles();
   spawnBullet();
